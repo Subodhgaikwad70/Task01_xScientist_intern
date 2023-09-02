@@ -1,6 +1,5 @@
 
 
-
 const card = document.querySelector(".card-box");
 
 const username_field = document.getElementById("username");
@@ -18,7 +17,7 @@ const details2 = document.querySelector(".details2");
 
 function reload(){
 
-    details2.classList.toggle('hidden');
+    details2.classList.remove('hidden');
 
     fetch('https://randomuser.me/api/').then((data)=>{
         return data.json()

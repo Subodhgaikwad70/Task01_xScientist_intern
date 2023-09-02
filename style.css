@@ -140,10 +140,16 @@ body{
 
 @media only screen and (max-width: 1000px){
 
-    
+    .card-box{
+        min-height: fit-content;
+        max-height: fit-content;
+        height: fit-content;
+    }
     .card-box .container{
         /* display: block; */
         min-width: 300px;
+        min-height: fit-content;
+        max-height: fit-content!important;
         width: fit-content!important;
         flex-direction: column!important;
         align-items: center!important;
